@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+    head
+        title Todo Application
+        meta(charset="utf-8")
+        link(rel='stylesheet' href='sass/style.sass')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat')
+        link(rel='stylesheet' href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')
+    body
+        div#todo
+            h1 simple todo application
+            form(action='')
+                input(type='text' class='screen' placeholder='Add your task')
+                br
+                i(class='ion-pul' id='addTask')
+        script(src='js/main.js')
